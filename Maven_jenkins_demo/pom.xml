@@ -36,8 +36,8 @@
   <distributionManagement>
     
     <repository>
-        <id>github.com</id>
-        <url>https://github.com/jagadeesh46/Team_Repository.git</url>
+        <id>maven-deploy-plugin</id>
+        <url>https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-deploy-plugin</url>
     </repository>
 </distributionManagement>
 </project>
