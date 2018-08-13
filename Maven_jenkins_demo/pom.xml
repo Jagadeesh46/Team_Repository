@@ -33,4 +33,15 @@
   <build>
     <finalName>Maven_jenkins_demo</finalName>
   </build>
+  <distributionManagement>
+    <downloadUrl>https://repo.icatproject.org/repo</downloadUrl>
+    <site>
+        <id>repo.icatproject.org</id>
+        <url>dav:https://repo.icatproject.org/site/xxx/yyy/${project.version}</url>
+    </site>
+    <repository>
+        <id>repo.icatproject.org</id>
+        <url>dav:https://repo.icatproject.org/repo</url>
+    </repository>
+</distributionManagement>
 </project>
