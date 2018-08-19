@@ -33,11 +33,20 @@
   <build>
     <finalName>Maven_jenkins_demo</finalName>
   </build>
-  <distributionManagement>
-    
-    <repository>
-        <id>maven-deploy-plugin</id>
-        <url>https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-deploy-plugin</url>
-    </repository>
-</distributionManagement>
+  <repositories>
+        <repository>
+            <id>myMavenRepo.read</id>
+            <url>https://mymavenrepo.com/repo/1I7DTcauK0vlIpWreLhc/</url>
+        </repository>
+    </repositories>
+    <distributionManagement>
+        <repository>
+            <id>myMavenRepo.write</id>
+            <url>https://mymavenrepo.com/repo/8ix6VAcBZSvHDu3SVf4k/</url>
+        </repository>
+        <snapshotRepository>
+            <id>myMavenRepo.write</id>
+            <url>https://mymavenrepo.com/repo/8ix6VAcBZSvHDu3SVf4k/</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
